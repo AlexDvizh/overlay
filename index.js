@@ -21,7 +21,7 @@ let canvas = {
     render() {
         this.c.clearRect(0, 0, this.canvas.width, this.canvas.height)
         this.sprite = new Image()
-        this.sprite.src = '/images/123.png'
+        this.sprite.src = './images/123.png'
         this.c.drawImage(this.sprite, 0 , this.frame * 172, 716, 172, 0, 0, 716, 172)
     },
     run() {
